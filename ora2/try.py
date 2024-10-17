@@ -23,10 +23,3 @@ try:
 except:
     print("Nincs ilyen file")
     
-class Person:
-    def __init__(self,nev,rassz,vegtag):
-        self.nev    = nev
-        self.rassz  = rassz
-        self.vegtag = vegtag
-        
-    def hello(self,)
