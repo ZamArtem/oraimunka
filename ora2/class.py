@@ -35,19 +35,7 @@ y = BankAccount(0)
 print(y.deposit(10000))
 print(y.withdraw(10000))
 print(y.get_balance())
-"""
 
-3. Feladat: Diák Osztály és Átlag Számítása
-    Leírás: Készíts egy Student nevű osztályt, amely tárolja a diák nevét és jegyeit, és legyen képes kiszámolni az átlagukat.
-
-    Feladat:
-
-    Az osztály tárolja a diák nevét és egy jegyek listáját.
-    Legyen egy metódus add_grade(grade), amely hozzáad egy jegyet a listához.
-    Legyen egy metódus get_average(), amely kiszámolja és visszaadja az átlagot.
-    Példányosíts egy diákot, adj hozzá jegyeket, és számold ki az átlagát.
-
-"""
 
 class Student:
     def __init__(self,neve,jegy):
