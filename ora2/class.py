@@ -39,7 +39,8 @@ print(y.get_balance())
 
 class Student:
     def __init__(self,neve,jegy):
-        self.jegy = [] 
+        jegy      = []
+        self.jegy = jegy
         self.neve = neve
        
         
