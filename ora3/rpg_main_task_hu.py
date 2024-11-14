@@ -63,7 +63,8 @@ def fight(valaki,masvalaki):
 
 x = random.randint(1,3)
 y = None
-,00    x = char1
+if x == 1:
+    x = char1
     y = char2
 if x == 2:
     x = char2
